@@ -1,0 +1,111 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "shadcn-solana-wallets",
+  "homepage": "https://github.com/trankhacvy/shadcn-solana-wallets",
+  "items": [
+    {
+      "name": "wallet",
+      "type": "registry:block",
+      "title": "Solana Wallet UI",
+      "description": "Complete Solana wallet UI — connect button, modal, account dropdown, and all primitives.",
+      "registryDependencies": [
+        "button",
+        "dialog",
+        "sheet",
+        "dropdown-menu",
+        "avatar",
+        "select",
+        "scroll-area",
+        "separator"
+      ],
+      "dependencies": ["@solana/connector@^0.2.0", "@tanstack/react-query@^5.0.0", "lucide-react"],
+      "files": [
+        {
+          "path": "registry/new-york/shadcn-solana-wallets/connect-button.tsx",
+          "type": "registry:component",
+          "target": "components/wallet-connect/connect-button.tsx"
+        },
+        {
+          "path": "registry/new-york/shadcn-solana-wallets/wallet-modal.tsx",
+          "type": "registry:component",
+          "target": "components/wallet-connect/wallet-modal.tsx"
+        },
+        {
+          "path": "registry/new-york/shadcn-solana-wallets/account-dropdown.tsx",
+          "type": "registry:component",
+          "target": "components/wallet-connect/account-dropdown.tsx"
+        },
+        {
+          "path": "registry/new-york/shadcn-solana-wallets/cluster-selector.tsx",
+          "type": "registry:component",
+          "target": "components/wallet-connect/cluster-selector.tsx"
+        },
+        {
+          "path": "registry/new-york/shadcn-solana-wallets/wallet-icon.tsx",
+          "type": "registry:component",
+          "target": "components/wallet-connect/wallet-icon.tsx"
+        },
+        {
+          "path": "registry/new-york/shadcn-solana-wallets/wallet-list-item.tsx",
+          "type": "registry:component",
+          "target": "components/wallet-connect/wallet-list-item.tsx"
+        },
+        {
+          "path": "registry/new-york/shadcn-solana-wallets/wallet-list-panel.tsx",
+          "type": "registry:component",
+          "target": "components/wallet-connect/wallet-list-panel.tsx"
+        },
+        {
+          "path": "registry/new-york/shadcn-solana-wallets/wallet-detail-panel.tsx",
+          "type": "registry:component",
+          "target": "components/wallet-connect/wallet-detail-panel.tsx"
+        },
+        {
+          "path": "registry/new-york/shadcn-solana-wallets/wallet-info-context.tsx",
+          "type": "registry:component",
+          "target": "components/wallet-connect/wallet-info-context.tsx"
+        },
+        {
+          "path": "registry/new-york/shadcn-solana-wallets/address-label.tsx",
+          "type": "registry:component",
+          "target": "components/wallet-connect/address-label.tsx"
+        },
+        {
+          "path": "registry/new-york/shadcn-solana-wallets/balance-display.tsx",
+          "type": "registry:component",
+          "target": "components/wallet-connect/balance-display.tsx"
+        },
+        {
+          "path": "registry/new-york/shadcn-solana-wallets/connecting-animation.tsx",
+          "type": "registry:component",
+          "target": "components/wallet-connect/connecting-animation.tsx"
+        },
+        {
+          "path": "registry/new-york/shadcn-solana-wallets/solana-wallet-provider.tsx",
+          "type": "registry:component",
+          "target": "components/wallet-connect/solana-wallet-provider.tsx"
+        },
+        {
+          "path": "registry/new-york/shadcn-solana-wallets/use-wallet-modal.ts",
+          "type": "registry:component",
+          "target": "components/wallet-connect/use-wallet-modal.ts"
+        },
+        {
+          "path": "registry/new-york/shadcn-solana-wallets/use-recent-wallets.ts",
+          "type": "registry:component",
+          "target": "components/wallet-connect/use-recent-wallets.ts"
+        },
+        {
+          "path": "registry/new-york/shadcn-solana-wallets/use-media-query.ts",
+          "type": "registry:component",
+          "target": "components/wallet-connect/use-media-query.ts"
+        },
+        {
+          "path": "registry/new-york/shadcn-solana-wallets/wallet-install-info.ts",
+          "type": "registry:component",
+          "target": "components/wallet-connect/wallet-install-info.ts"
+        }
+      ]
+    }
+  ]
+}
